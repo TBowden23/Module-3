@@ -8,21 +8,103 @@ header {
     border-style: solid;
     border-width: 5px 0px 0px 0px;
     border-color: goldenrod;
+    border-width: 100%;
 }
-body {
-    color:darkblue;
 
+body {
+    color:rgb(4, 4, 204);
+    border-width: 100%;
 }
 
 .border{
     border-style: solid;
     border-width: 10px 0px 0px 0px;
     border-color: rgb(4, 4, 204);
+    border-width: 100%;
+    margin-bottom: 10px;
 }
+
+.border2{
+    border-style: solid;
+    border-width: 10px 0px 0px 0px;
+    border-color: rgb(4, 4, 204);
+    border-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
 .navbar{
+    display:flex;
     font-size: xx-large;
     background-color: darkgray;
     border-style: solid;
     border-width: 0px 0px 5px 0px;
     border-color: #daa520;
+    width:100%;
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+}    
+
+.navbar a{
+    display: block;
+     float: left;
+     width: 20%;
+     color: rgb(4, 4, 204);
+     margin-top: 5px;
+     margin-bottom: 5px;
+}
+
+.navbar a:hover {
+    color: white;
+  }
+
+.clear {
+    clear:both;   
+ }
+
+.pgbanner{
+    border-style: solid;
+    border-width: 10px 2px 10px 2px;
+    border-color: rgb(4, 4, 204);
+    padding-bottom: 7px;
+    padding-top: 7px;
+    align-self: center;
+    margin-bottom: 200px;
+}
+
+#websiteTitle {
+    display: none;
+    text-indent: -9999px;
+}
+
+.product {
+    height: 470px;
+}
+
+.products{
+    display: block;
+     float: left;
+     width: 10%;
+}
+
+.product:hover{
+    opacity: .65;
+}
+
+.descrip{
+    /* display: none; */
+    position: relative;
+    bottom: 350px;
+    left: 200px;
+    font-size: 25px;
+    color: white;
+}
+
+#shop{
+    text-align: center;
+    font-size: 50px;
+    font-family:fantasy;
+
 }
