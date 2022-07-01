@@ -9,9 +9,10 @@ header {
     border-width: 5px 0px 0px 0px;
     border-color: goldenrod;
     border-width: 100%;
-    background-image: url(pexels-photo-3805983.jpeg);
+    background-image: url(Images/Bground/pexels-photo-3805983.jpeg);
     background-blend-mode:hard-light;
     background-color: rgb(4, 4, 204);
+    margin-bottom:10px;
 }
 
 body {
@@ -50,18 +51,18 @@ body {
 
 .navbar a{
     display: block;
-     float: left;
-     width: 20%;
-     color: rgb(4, 4, 204);
-     margin-top: 5px;
-     margin-bottom: 3px;
-     padding-top: 40px;
-     padding-bottom: 2px;
+    float: left;
+    width: 20%;
+    color: rgb(4, 4, 204);
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding-top: 40px;
+    padding-bottom: 2px;
 }
 
 .cart{
-position: relative;
-bottom: 18px;
+    position: relative;
+    bottom: 18px;
 }
 
 .navbar a:hover {
@@ -87,8 +88,37 @@ bottom: 18px;
     text-indent: -9999px;
 }
 
+.products img{
+    width:20%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 .products img:hover{
     opacity: .65;
+}
+
+.products1{
+    /* color:white; */
+    color:black;
+    
+}
+
+.products1 img{
+    width:20%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.products1 img:hover{
+    opacity: .65;
+    color: rgb(0,0,0);
+}
+
+.pro{
+    border-width: 0px, 10px, 0px, 0px;
+    border-right:solid;
+    border-color: rgb(4, 4, 204);
 }
 
 .descrip{
@@ -100,8 +130,78 @@ bottom: 18px;
     color: white;
 }
 
-#shop{
+.Pgtitle{
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
     font-family:fantasy;
+}
+
+.shop{
+    text-align: center;
+    font-size: 80px;
+    font-family:fantasy;
+    margin-top: 220px;
+    padding-top:25px;
+    padding-bottom:25px; 
+    background-blend-mode:luminosity;
+    color: rgb(4, 4, 204);
+}
+
+.newsletter{
+    font-size: 50px;
+    color: whitesmoke;
+    background-image: url(Images/Bground/starsflash.jpg);
+    text-align: center;
+    margin-bottom: 250px;
+    padding-bottom: 30px;
+    border-style:solid;
+    height: 950px;
+    width: 800px;
+    position: relative;
+    left:30%;
+    border-radius: 75px;
+    
+}
+
+.newsletter img{
+    padding-bottom: 100px;
+    
+}
+
+.newsletter p{
+    padding-top: 50px;
+    line-height:1.6;
+}
+
+.newsletter input{
+    position:relative;
+    bottom: 10px;
+    font-size: xx-large;
+    font-family: Bradley Hand;
+    padding-left: 12px;
+    border-radius: 12px;
+    
+}
+
+.newsletter label{
+    font-family: Bradley Hand;
+}
+
+#fname{
+    position: relative;
+    left: 4px;
+}
+
+.Submit{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.Optin{
+    position: relative;
+    top: 1px;
+}
+
+#Optin{
+    font-size: 25px;
 }
