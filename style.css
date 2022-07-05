@@ -205,3 +205,26 @@ body {
 #Optin{
     font-size: 25px;
 }
+
+footer{
+    background-image: url(Images/Bground/pexels-photo-3805983.jpeg);
+    padding: 10px;
+    padding-bottom: 30px;
+    color:aliceblue;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.trade{
+    padding: 15px;
+    color:aliceblue;
+}
+
+.footer{
+font-size: xx-large;
+}
+
+footer p{
+    line-height: 30px;
+}
