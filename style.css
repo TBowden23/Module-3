@@ -8,7 +8,6 @@ header {
     border-style: solid;
     border-width: 5px 0px 0px 0px;
     border-color: goldenrod;
-    border-width: 100%;
     background-image: url(Images/Bground/pexels-photo-3805983.jpeg);
     background-blend-mode:hard-light;
     background-color: rgb(4, 4, 204);
@@ -17,7 +16,6 @@ header {
 
 body {
     color:rgb(4, 4, 204);
-    border-width: 100%;
 }
 
 .border{
@@ -47,7 +45,6 @@ body {
     width:100%;
     text-align:center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    bottom: 75px;
 }    
 
 .navbar a{
@@ -56,15 +53,13 @@ body {
     width: 20%;
     color: rgb(4, 4, 204);
     margin-top: 5px;
-    margin-bottom: 3px;
-    padding-top: 40px;
-    padding-bottom: 2px;
-    
+    bottom: 50px;
+    padding-top: 60px;
 }
 
 div.cart>img{
     position: relative;
-    bottom: 18px;
+    bottom: 25px;
     width: 120px;
     display: inline-block;
 }
@@ -73,7 +68,7 @@ div.cart>img{
     position: relative;
     display: none;
     width: 87px;
-    bottom: 20px;
+    bottom: 27px;
     padding-top: 30px;
     padding-bottom: 10px;
     margin-bottom: 5px;
@@ -103,6 +98,7 @@ div.cart:hover>img{
     padding-top: 7px;
     align-self: center;
     margin-bottom: 200px;
+    height: 500px;
 }
 
 #websiteTitle {
@@ -244,9 +240,46 @@ footer{
 }
 
 .footer{
-font-size: xx-large;
+    font-size: xx-large;
 }
 
 footer p{
     line-height: 30px;
+}
+
+.cming{
+    font-size: 150px;
+    text-align: center;
+}
+
+.about{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.about h2{
+    font-size: 50px;
+}
+
+
+h3{
+    text-align: center;
+    padding-bottom: 125px;
+}
+
+#tazer{
+        display: none;
+        width: 700px;
+        height: 400px;
+        border:1px solid #CCC;
+        background:rgb(255, 255, 255);
+        border-radius: 30px;
+}
+
+#tazer:target {
+    display: block;
+  }
+
+#tazer img{
+    width: 25px;
 }
