@@ -126,6 +126,7 @@ div.cart:hover>img{
     width:20%;
     padding-left: 2%;
     padding-right: 2%;
+
 }
 
 .products1 img:hover{
@@ -137,6 +138,7 @@ div.cart:hover>img{
     border-width: 0px, 10px, 0px, 0px;
     border-right:solid;
     border-color: rgb(4, 4, 204);
+    z-index: -1;
 }
 
 .descrip{
@@ -255,10 +257,16 @@ footer p{
 .about{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    font-size:40px;
 }
 
 .about h2{
     font-size: 50px;
+}
+
+.about img{
+    float: left;
+    align-self: center;
 }
 
 
@@ -271,15 +279,23 @@ h3{
         display: none;
         width: 700px;
         height: 400px;
+        position: relative;
         border:1px solid #CCC;
         background:rgb(255, 255, 255);
         border-radius: 30px;
+        left: 700px;
 }
 
 #tazer:target {
-    display: block;
+    display:block
   }
 
 #tazer img{
     width: 25px;
+}
+
+#tazer iframe{
+    position: relative;
+    left:200px;
+    bottom: 50px;
 }
